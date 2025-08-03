@@ -9,7 +9,6 @@ export default defineConfig({
       // Configure React Compiler per official guide
       babel: {
         plugins: [
-          // valid values are the string literals "17" | "18" | "19" or a config object
           ['babel-plugin-react-compiler'],
         ],
       },
