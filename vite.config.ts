@@ -10,7 +10,7 @@ export default defineConfig({
       babel: {
         plugins: [
           // valid values are the string literals "17" | "18" | "19" or a config object
-          ['babel-plugin-react-compiler', { target: "18" }],
+          ['babel-plugin-react-compiler'],
         ],
       },
     }),
